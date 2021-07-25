@@ -1,0 +1,27 @@
+{
+  "phone": "Téléphone",
+  "quickLinks": "Liens rapides",
+  "ourSocialMedia": "Nos réseaux sociaux",
+  "language": "Langue",
+  "followUsOnSocialMedia": "Suivez-nous sur les réseaux sociaux",
+  "heroTitle": "Services informatiques pour le",
+  "webAndMobile": "web & mobile",
+  "heroDescription": "Développez votre travail avec une base de code propre et des applications Web et mobiles hautement performantes optimisées pour le SEO. intégration de technologies avancées. et système de conception puissant. avec un prix abordable",
+  "discount": "Promotion",
+  "discountText": "30% off pour les solutions ecommerce",
+  "about": "À propos de nous",
+  "expertisesSection": {
+    "expertise": "Spécialisation",
+    "expertiseTitle": "Nos domaines d'expertise",
+    "webDevelopment": "Développement web",
+    "webDevelopmentDescription": "Création de toutes sortes de sites Web, y compris des sites Web statiques et dynamiques, des portefeuilles, des solutions de commerce électronique, des CMS. et des applications Web avancées et efficaces avec une interface utilisateur riche",
+    "mobileDevelopment": "Développement mobile",
+    "mobileDevelopmentDescription": "Créez une vue Web hybride hautement permanente et des applications mobiles natives pour Android et IOS avec une conception UI/UX fluide",
+    "graphicDesign": "Infographie",
+    "graphicDesignDescription": "Création et optimisation de vecteurs graphiques, y compris la création de logos et la conception de modèles de cartes de visite et le montage vidéo"
+  },
+  "technologiesSection": {
+    "technologiesIntegration": "Intégration des technologies",
+    "technologiesDescription": "Notre équipe utilise les dernières technologies avancées, sécurisées et stables pour nos projets. de sorte que la base de code peut être maintenable et se traduit par des applications sécurisées hautes performances"
+  }
+}

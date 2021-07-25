@@ -1,16 +1,35 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-secondary-gradient {
+    @apply  bg-gradient-to-l from-secondary   to-secondary-dark;
+  }
+  .bg-brand-gradient {
+    @apply bg-gradient-to-r from-brand via-brand to-brand-light;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* @layer utilities {
+
+} */
+/* Progress bar */
+#nprogress {
+  position: relative;
+  z-index: 999999999999999999999999999999999999999;
+}
+#nprogress .bar {
+  background: red !important ;
+  height: 3px !important;
 }
 
-* {
-  box-sizing: border-box;
+#nprogress .peg {
+  box-shadow: 0 0 10px red, 0 0 5px red;
+}
+
+#nprogress .spinner-icon {
+  display: none;
+  /* border-top-color: #17688D; */
+  /* border-left-color: #17688D; */
 }

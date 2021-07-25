@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import "nprogress/nprogress.css";
+import "@fortawesome/fontawesome-free/css/all.css";
+import "../styles/globals.css";
+import Layout from "../components/layout/Layout";
+import '../global/boot'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
 
-export default MyApp
+  return (
+      <Layout>
+        <Component {...pageProps}  />
+      </Layout>
+  );
+};
+
+export default MyApp;

@@ -1,0 +1,27 @@
+{
+  "phone": "Phone",
+  "quickLinks": "Quick Links",
+  "ourSocialMedia": "Our Social Media",
+  "language": "Language",
+  "followUsOnSocialMedia": "Follow us on social media",
+  "heroTitle": "IT services for the",
+  "webAndMobile": "web & mobile",
+  "heroDescription": "Develop your business with a Clean code base and high performant web & mobile applications optimized for SEO . advanced technologies integration . and powerful design system . with an affordable price",
+  "discount": "Discount",
+  "discountText": "30% off for ecommerce solutions",
+  "about": "About",
+  "expertisesSection": {
+    "expertise": "Expertise",
+    "expertiseTitle": "Our Areas of Expertise",
+    "webDevelopment": "Web Development",
+    "webDevelopmentDescription": "Creating all sort of websites including static and dynamic websites ,portfolios , ecommerce solutions, CMS . and advanced efficient web applications with a rich user interface",
+    "mobileDevelopment": "Mobile Development",
+    "mobileDevelopmentDescription": "Build High permormant hybrid web view and native mobile application for Android and IOS with a smooth UI/UX design",
+    "graphicDesign": "Graphic Design",
+    "graphicDesignDescription": "Creating and optimization graphic vectors including Logos creation and Business cards templates design and video editing"
+  },
+  "technologiesSection": {
+    "technologiesIntegration": "Technologies Integration",
+    "technologiesDescription": "Our Team makes to use the latest , advanced , secure and stable technologies for our projects. so the code base can be maintainable and results in a high performance secure applications"
+  }
+}
