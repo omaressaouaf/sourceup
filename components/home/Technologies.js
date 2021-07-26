@@ -148,14 +148,14 @@ const Technologies = () => {
           transition={{ duration: 1.5, repeat: Infinity, repeatType: "reverse" }}
           className="col-span-2 md:col-span-1 order-1 md:order-2"
         >
-          <Image
-            src="/images/dashboard.svg"
-            alt="SourceUp Dashboard"
-            quality={100}
-            width="792"
-            height="670"
-            layout="responsive"
-          />
+            <Image
+              src="/images/dashboard.svg"
+              alt="SourceUp Dashboard"
+              quality={100}
+              width="792"
+              height="670"
+              layout="responsive"
+            />
         </motion.div>
       </div>
     </section>

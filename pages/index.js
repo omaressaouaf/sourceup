@@ -6,7 +6,7 @@ import Technologies from "../components/home/Technologies";
 export default function Home() {
   return (
     <>
-      <MetaData description="créez votre site web ou votre application mobile pour votre entreprise" />
+      <MetaData description="Créez un site Web / une application mobile pour votre affaire. et créez votre système de conception avec une interface utilisateur, un logo et une carte de visite" />
       <Hero />
       <Expertises />
       <div className="text-gray-100">

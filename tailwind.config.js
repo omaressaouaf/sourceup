@@ -13,6 +13,9 @@ module.exports = {
       },
     },
     extend: {
+      height: {
+        128: "32rem",
+      },
       colors: {
         brand: {
           DEFAULT: "#17688D",

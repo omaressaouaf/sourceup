@@ -37,7 +37,7 @@ const Hero = () => {
 
         <div className="w-50 relative flex-grow">
           <ScrollAnimation animation="dropOn">
-            <Image alt="hero" width="1550" height="900" layout="intrinsic" src="/images/hero.svg" />
+            <Image alt="hero" width="1750" height="1000" layout="intrinsic" src="/images/hero.svg" />
           </ScrollAnimation>
         </div>
       </div>

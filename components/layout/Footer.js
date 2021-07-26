@@ -1,5 +1,6 @@
 import useTranslation from "next-translate/useTranslation";
 import Link from "next/link";
+import Image from "next/image";
 import LanguageSwitcher from "../shared/LanguageSwitcher";
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
       <div className="container flex flex-col  md:flex-row items-start justify-between pb-2 pt-14 2xl:px-32">
         <div className="flex flex-col items-start p-7 w-10/12 mx-auto md:mx-0 mb-10 md:w-auto bg-secondary border-t-4 border-brand shadow-lg rounded-md">
           <figure className="mx-auto">
-            <img src="/images/logo-col.svg" width="120" height="50" alt="Source Up Logo" />
+            <Image src="/images/logo-col.svg" width="200" height="200" alt="Source Up Logo" />
           </figure>
           <p className="text-sm text-gray-400 mb-1 mt-4">
             <span className="font-bold"> Email </span> : sourceupbusiness@gmail.com
@@ -23,8 +24,29 @@ const Footer = () => {
           <h1 className="mb-8 text-xs font-semibold tracking-widest uppercase title-font">
             {t("quickLinks")}
           </h1>
-          <nav className="mb-10 space-y-4 list-none text-gray-400">
-            <ul>
+          <nav className="mb-10">
+            <ul className="space-y-5 list-none text-gray-400">
+              <li>
+                <Link href="/">
+                  <a className="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:outline-none">
+                    {t("home")}
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/services">
+                  <a className="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:outline-none">
+                    Services
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/about">
+                  <a className="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:outline-none">
+                    {t("about")}
+                  </a>
+                </Link>
+              </li>
               <li>
                 <Link href="/contact">
                   <a className="mr-1 text-sm font-medium text-blueGray-500 transition duration-500 ease-in-out transform rounded-sm focus:outline-none">

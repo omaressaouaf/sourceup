@@ -1,5 +1,6 @@
 import useTranslation from "next-translate/useTranslation";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import NavbarItem from "../base/NavbarItem";
 import LanguageSwitcher from "../shared/LanguageSwitcher";
@@ -19,7 +20,7 @@ const Navbar = () => {
         <Link href="/">
           <a className="focus:outline-none">
             <figure>
-              <img src="/images/logo.svg" width="220" height="50" alt="Source Up Logo" />
+              <Image src="/images/logo.svg" width="220" height="50" alt="Source Up Logo" />
             </figure>
           </a>
         </Link>

@@ -1,7 +1,8 @@
 {
-  "whatDoWeOffer": "Quels sont les services que nous offrons ?",
+  "subtitle": "nous avons tout ce dont vous avez besoin",
   "softwareDevelopment": "Développement de software",
   "graphicDesign": "Conception graphique",
+  "digitalMarketing": "Marketing digital",
   "graphicDesignAndIllustrations": "Conception graphique et illustrations",
   "webDevelopmentDescription": "Nous suivons de bonnes pratiques lors de la création de sites Web modernes et avancés. En commençant par générer l'idée globale à partir de la base de données en utilisant des paramètres de base de données sécurisés, les exigences de fonctionnalité et d'algorithmes seront mises en œuvre à l'aide de notre pile backend comme laravel. créer une API de données hébergée sur le serveur qui sert les données à l'interface utilisateur frontale qui serait construite avec notre pile frontale comme Vue Js. et implémente le système de conception que vous préférez ou en utilisant des modèles pré-construits.",
   "mobileDevelopmentDescription": "Développez votre application mobile qui peut interagir avec votre API Web hébergée et fournir à vos clients les données via une interface utilisateur de conception matérielle fluide. vous avez le choix de choisir des applications mobiles natives ou hybrides.",

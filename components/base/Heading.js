@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Heading = ({ className, children, size }) => {
+const Heading = ({ className, children, size, noHeight }) => {
   const renderTextSize = () => {
     switch (size) {
       case 1:
@@ -16,15 +16,18 @@ const Heading = ({ className, children, size }) => {
   };
   return (
     <h1
-      className={`h-20 md:h-16 bg-secondary-gradient text-transparent bg-clip-text ${renderTextSize()} ${className}`}
+      className={`${
+        !noHeight && "h-20 md:h-16"
+      } bg-secondary-gradient text-transparent bg-clip-text ${renderTextSize()} ${className}`}
     >
       {children}
     </h1>
   );
 };
 Heading.propTypes = {
-  className : PropTypes.string,
+  className: PropTypes.string,
   children: PropTypes.node.isRequired,
   size: PropTypes.oneOf([1, 2, 3, 4]),
+  noHeight: PropTypes.bool,
 };
 export default Heading;
