@@ -83,7 +83,7 @@ const Footer = () => {
       </div>
       <div className="p-8 mt-4 bg-secondary-dark border-t border-gray-800 border-opacity-80">
         <div className="flex items-center justify-center">
-          <p className="text-sm">©Copyright {process.env.APP_NAME}. All Rights Reserved </p>
+          <p className="text-sm">©Copyright {process.env.NEXT_PUBLIC_APP_NAME}. All Rights Reserved </p>
         </div>
       </div>
     </footer>
