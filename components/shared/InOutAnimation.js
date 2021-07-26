@@ -22,7 +22,7 @@ const InOutAnimation = ({ animation, elementKey, children }) => {
         initial="hidden"
         animate="visible"
         exit="hidden"
-        transition={{ duration: 0.25 }}
+        transition={{ duration: 0.11 }}
         variants={renderVariants()}
       >
         {children}

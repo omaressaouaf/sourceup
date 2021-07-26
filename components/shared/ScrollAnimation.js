@@ -44,7 +44,7 @@ const ScrollAnimation = ({ animation, children }) => {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 0.8, type: "tween" }}
+      transition={{ duration: 0.4,  }}
       variants={renderVariants()}
     >
       {children}

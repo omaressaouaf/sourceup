@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="flex flex-col justify-center lg:flex-row">
               <Link href="/services">
                 <a>
-                  <Button variant="brand">Services</Button>
+                  <Button variant="brand">{t("ourServices")}</Button>
                 </a>
               </Link>
             </div>
@@ -37,7 +37,13 @@ const Hero = () => {
 
         <div className="w-50 relative flex-grow">
           <ScrollAnimation animation="dropOn">
-            <Image alt="hero" width="1750" height="1000" layout="intrinsic" src="/images/hero.svg" />
+            <Image
+              alt="hero"
+              width="1750"
+              height="1000"
+              layout="intrinsic"
+              src="/images/hero.svg"
+            />
           </ScrollAnimation>
         </div>
       </div>

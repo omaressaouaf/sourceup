@@ -13,7 +13,7 @@ const Button = ({ className, variant, children, outline, ...otherProps }) => {
     <button
       className={`${
         variantClasses[variant]
-      } text-sm uppercase px-5 py-2 rounded shadow-lg focus:outline-none focus:ring-1 hover:opacity-95 disabled:opacity-50 disabled:cursor-default ${
+      } text-sm uppercase px-5 py-2 shadow-lg focus:outline-none focus:ring-1 hover:opacity-95 disabled:opacity-50 disabled:cursor-default ${
         className && className
       }`}
       {...otherProps}
