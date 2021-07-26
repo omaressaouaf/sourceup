@@ -76,7 +76,7 @@ const Projects = () => {
 
                   <Heading size={4}>{project.name}</Heading>
                   <p className="text-sm font-semibold text-gray-700 mb-5">{project.description}</p>
-                  <a href={project.url} target="_blank">
+                  <a href={project.url} rel="noopener noreferrer" target="_blank">
                     <Button variant="brand">
                       <i className="fa fa-location-arrow mr-2"></i> Visit Site
                     </Button>

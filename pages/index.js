@@ -3,6 +3,7 @@ import Hero from "../components/home/Hero";
 import Expertises from "../components/home/Expertises";
 import Technologies from "../components/home/Technologies";
 
+
 export default function Home() {
   return (
     <>
@@ -20,6 +21,7 @@ export default function Home() {
         </svg>
       </div>
       <Technologies />
+
     </>
   );
 }

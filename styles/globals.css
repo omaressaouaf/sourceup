@@ -11,7 +11,6 @@
   }
 }
 
-
 /* custom hero bg */
 
 .hero {
@@ -38,27 +37,4 @@
   display: none;
   /* border-top-color: #17688D; */
   /* border-left-color: #17688D; */
-}
-
-
-.typewriter  {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(245, 160, 2); /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  animation:
-    typing 1.5s steps(40, end) infinite alternate,
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: rgba(255, 166, 0, 0) }
-  50% { border-color: orange; }
 }

@@ -32,11 +32,11 @@ const About = () => {
             <ScrollAnimation animation="zoomIn">
               <Heading size={4}>{t("getToKnowUs")}</Heading>
               <div className="flex items-center gap-3 mt-4">
-                <Image src="/images/icon.svg" width="60" height="60" />
+                <Image src="/images/icon.svg" width="60" height="60" alt="source up logo" />
                 <div>
                   <h2 className="font-semibold text-xl mb-1 ml-1">SourceUp</h2>
                   <p className="font-semibold text-sm text-gray-700">
-                    "Source Code your business to the net"
+                  &quot;Source Code your business to the net&quot;
                   </p>
                 </div>
               </div>
