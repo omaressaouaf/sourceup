@@ -1,6 +1,6 @@
 // pages/404.js
-const Custom505 = () => {
+const Custom500 = () => {
   return <h1>500 - Server-side error occurred</h1>;
 };
 
-export default Custom404;
+export default Custom500;
