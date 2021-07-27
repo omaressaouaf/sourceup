@@ -14,7 +14,7 @@ const About = () => {
       <section>
         <div className="container flex flex-col items-start py-16 mx-auto lg:items-start md:flex-row -mt-28 md:mt-0 z-50">
           <div className="w-full mb-10 lg:w-5/6 lg:max-w-lg md:w-1/2">
-            <ScrollAnimation animation="fadeInLeft">
+            <ScrollAnimation animation="fade-right">
               <div className="h-80 lg:h-128 relative shadow-2xl">
                 <Image
                   className="rounded-md"
@@ -29,7 +29,7 @@ const About = () => {
             </ScrollAnimation>
           </div>
           <div className="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
-            <ScrollAnimation animation="zoomIn">
+            <ScrollAnimation animation="zoom-in">
               <Heading size={4}>{t("getToKnowUs")}</Heading>
               <div className="flex items-center gap-3 mt-4">
                 <Image src="/images/icon.svg" width="60" height="60" alt="source up logo" />

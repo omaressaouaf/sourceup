@@ -97,7 +97,7 @@ const Technologies = () => {
     <section className="bg-gray-100 border-b border-gray-300 align-start px-5 md:px-8 pb-10">
       <div className="grid grid-cols-2 gap-10">
         <div className="col-span-2 md:col-span-1 order-2 md:order-1 md:py-20 lg:py-24">
-          <ScrollAnimation animation="zoomIn">
+          <ScrollAnimation animation="zoom-in">
             <div className="flex flex-col items-start mb-14 border-l-4 border-brand px-5">
               <Heading size={4}>{t("technologiesSection.technologiesIntegration")}</Heading>
               <p className="text-gray-700 font-semibold">

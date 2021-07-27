@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const IntroHero = ({ title, titleIsNode, subtitle }) => {
   return (
     <section className="hero text-gray-50 py-16">
-      <ScrollAnimation animation="zoomIn">
+      <ScrollAnimation animation="zoom-in">
         <div className="flex flex-col items-center justify-center mt-8 gap-4 container">
           <div>
             {titleIsNode ? (

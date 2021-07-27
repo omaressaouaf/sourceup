@@ -47,9 +47,8 @@ const Methodology = () => {
         ></div>
         {steps.map((step, index) => {
           return (
-            <ScrollAnimation key={index} animation={index % 2 === 0 ? "fadeInLeft" : "fadeInRight"}>
+            <ScrollAnimation key={index} animation={index % 2 === 0 ? "fade-right" : "fade-left"}>
               <div
-                key={index}
                 className={`mb-8 flex justify-between items-start gap-2 md:gap-0 md:items-center w-full ${
                   index % 2 === 0 ? "right-timeline" : "left-timeline flex-row-reverse"
                 } `}
@@ -59,7 +58,7 @@ const Methodology = () => {
                   <h1 className="mx-auto text-gray-50 font-semibold text-l">{index + 1}</h1>
                 </div>
                 <div
-                  className={`z-10 order-1 font-semibold text-lg  rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 focus:scale-105 focus:shadow-2xl transition-all duration-300 w-9/12 md:w-5/12  px-6 py-4 ${
+                  className={`z-10 order-1 font-semibold text-lg  rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 w-9/12 md:w-5/12  px-6 py-4 ${
                     index % 2 === 0
                       ? "bg-brand-gradient text-gray-50"
                       : "bg-gray-100 text-secondary-dark"

@@ -1,41 +1,16 @@
 import PropTypes from "prop-types";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { AnimatePresence, motion } from "framer-motion";
-import { useRouter } from "next/router";
 import Heading from "../base/Heading";
 import Button from "../base/Button";
 
 const Layout = ({ children }) => {
-  const router = useRouter();
 
   return (
     <div className="flex flex-col h-screen has-cool-scrollbar">
       <Navbar />
       <main>
-        {/* <AnimatePresence exitBeforeEnter> */}
-        <motion.article
-          key={router.route}
-          // initial="pageInitial"
-          // animate="pageAnimate"
-          // exit="pageExit"
-          transition={{ duration: 0.25 }}
-          variants={{
-            pageInitial: {
-              opacity: 0,
-            },
-            pageAnimate: {
-              opacity: 1,
-            },
-            pageExit: {
-              opacity: 0,
-            },
-          }}
-          className="mb-10"
-        >
-          {children}
-        </motion.article>
-        {/* </AnimatePresence> */}
+        <article className="mb-10">{children}</article>
       </main>
       <section className="py-10">
         <div className="container flex flex-col space-y-4 items-center justify-center">

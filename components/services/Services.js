@@ -130,7 +130,7 @@ const Services = () => {
       <div className="px-10 lg:px-14 w-full">
         <div className="grid grid-cols-5 gap-10">
           <div className="col-span-5 order-2 lg:order-1 lg:col-span-3">
-            <ScrollAnimation animation="fadeInLeft">
+            <ScrollAnimation animation="fade-right">
               <div className="flex flex-wrap items-start gap-5 my-8">
                 {services.map((service, index) => {
                   return (
@@ -146,7 +146,7 @@ const Services = () => {
                 })}
               </div>
             </ScrollAnimation>
-            <ScrollAnimation animation="zoomIn">
+            <ScrollAnimation animation="zoom-in">
               <InOutAnimation animation="fade" elementKey={selectedService.name}>
                 <Heading size={2}>{selectedService.title}</Heading>
                 <div className="space-y-4">
@@ -165,7 +165,7 @@ const Services = () => {
             </ScrollAnimation>
           </div>
           <div className="col-span-5 -mb-20 -mt-24 lg:mb-0  lg:-mt-40 order-1 lg:order-2 lg:col-span-2 z-20">
-            <ScrollAnimation animation="zoomIn">
+            <ScrollAnimation animation="zoom-in">
               <InOutAnimation animation="fade" elementKey={selectedService.name}>
                 <Image
                   src={`/images/services/${selectedService.image}`}

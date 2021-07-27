@@ -44,11 +44,13 @@ const Projects = () => {
   ];
   return (
     <section className="">
-      <ScrollAnimation animation="zoomIn">
+      <ScrollAnimation animation="zoom-in">
         <div className="flex flex-col items-center space-y-5 mb-10 px-5 mt-10">
-          <span className="text-brand font-semibold  uppercase tracking-wider">{t('projects')}</span>
+          <span className="text-brand font-semibold  uppercase tracking-wider">
+            {t("projects")}
+          </span>
           <Heading size={4} className=" border-b-4 border-brand">
-            {t('ourLatestProjects')}
+            {t("ourLatestProjects")}
           </Heading>
         </div>
         <div className="grid grid-cols-3 px-10 xl:px-36 gap-10">
@@ -56,7 +58,7 @@ const Projects = () => {
             return (
               <div
                 key={index}
-                className="col-span-3 lg:col-span-1 text-center bg-gray-50 border border-gray-50 border-opacity-50  shadow-lg hover:shadow-2xl hover:scale-105 focus:scale-105 focus:shadow-2xl transition-all duration-300 rounded-md font-semibold text-lg text-secondary-dark"
+                className="col-span-3 lg:col-span-1 text-center bg-gray-50 border border-gray-50 border-opacity-50  shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-md font-semibold text-lg text-secondary-dark"
               >
                 <div className="">
                   <Image

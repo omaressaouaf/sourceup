@@ -4,8 +4,8 @@ module.exports = nextTranslate({
   webpack: (config, { isServer, webpack }) => {
     return config;
   },
-  reactStrictMode: true,
-  react : {useSuspense : false},
+  // reactStrictMode: true,
+  // react : {useSuspense : false},
   // i18n: {
   //   defaultLocale: "en",
   //   locales: ["en", "fr"],

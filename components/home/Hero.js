@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className="text-gray-50 py-16 bg-secondary-gradient">
       <div className="flex flex-col items-start mt-8 gap-4 container lg:flex-row">
-        <ScrollAnimation animation="zoomIn">
+        <ScrollAnimation animation="zoom-in">
           <div className="flex flex-col items-start mb-16 text-left lg:mb-0">
             <div className="bg-secondary pr-1 pl-0 mb-5 inline-flex justify-center items-center rounded-full text-sm font-semibold">
               <div className="bg-brand text-gray-50 px-2 rounded-full m-1">{t("discount")}</div>
@@ -36,7 +36,7 @@ const Hero = () => {
         </ScrollAnimation>
 
         <div className="w-50 relative flex-grow">
-          <ScrollAnimation animation="dropOn">
+          <ScrollAnimation animation="zoom-out-up">
             <Image
               alt="hero"
               width="1750"
