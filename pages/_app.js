@@ -10,7 +10,7 @@ import { useEffect } from "react";
 const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
     AOS.init({
-      duration: 800,
+      duration: 500,
       mirror: false,
       once : true
     });

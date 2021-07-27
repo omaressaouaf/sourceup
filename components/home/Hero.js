@@ -36,7 +36,7 @@ const Hero = () => {
         </ScrollAnimation>
 
         <div className="w-50 relative flex-grow">
-          <ScrollAnimation animation="zoom-out-up">
+          <ScrollAnimation animation="zoom-in">
             <Image
               alt="hero"
               width="1750"
