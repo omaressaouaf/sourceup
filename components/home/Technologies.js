@@ -94,7 +94,7 @@ const Technologies = () => {
   const { t } = useTranslation("common");
 
   return (
-    <section className="bg-gray-100 border-b border-gray-300 align-start px-5 md:px-8 pb-10">
+    <section className="bg-gray-100 border-b border-gray-200 align-start px-5 md:px-8 pb-10">
       <div className="grid grid-cols-2 gap-10">
         <div className="col-span-2 md:col-span-1 order-2 md:order-1 md:py-20 lg:py-24">
           <ScrollAnimation animation="fade-up">

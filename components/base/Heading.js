@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Heading = ({ className, children, size, noHeight }) => {
+const Heading = ({ className ="", children, size, noHeight }) => {
   const renderTextSize = () => {
     switch (size) {
       case 1:

@@ -58,7 +58,7 @@ const Projects = () => {
             return (
               <div
                 key={index}
-                className="col-span-3 lg:col-span-1 text-center bg-gray-50 border border-gray-50 border-opacity-50  shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-md font-semibold text-lg text-secondary-dark"
+                className="col-span-3 lg:col-span-1 text-center bg-gray-50 border border-gray-50 border-opacity-50  shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-200 lg:duration-300 rounded-md font-semibold text-lg text-secondary-dark"
               >
                 <div className="">
                   <Image

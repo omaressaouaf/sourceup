@@ -19,6 +19,12 @@
   background-size: cover;
 }
 
+.contact-sidebar {
+  background: linear-gradient(#0f455e, #1d8cbfdc), url(/images/hero-bg.jpg);
+  /* position: relative; */
+  background-size: cover;
+}
+
 /* Progress bar */
 #nprogress {
   position: relative;

@@ -3,6 +3,6 @@
   "locales": ["en", "fr"],
   "defaultLocale": "fr",
   "pages": {
-    "*": ["common", "services", "about"]
+    "*": ["common", "services", "about", "contact"]
   }
 }

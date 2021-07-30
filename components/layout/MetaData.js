@@ -9,10 +9,14 @@ const MetaData = ({ title, description }) => {
       <title>
         {title && `${title} -`}{" "}
         {pathname === "/"
-          ? `${process.env.NEXT_PUBLIC_APP_NAME } - Développement Web / mobile, marketing digital, conception graphique`
+          ? `${process.env.NEXT_PUBLIC_APP_NAME} - Développement Web / mobile, marketing digital, conception graphique`
           : process.env.NEXT_PUBLIC_APP_NAME}
       </title>
       <meta name="description" content={description} />
+      <meta
+        name="keywords"
+        content="création site web, site web, logiciel, logiciels, informatique, conseil, erp, crm, vidéoconférence, développement, développement logiciel, application mobile, software, websites, websites development, mobile development, web development, digital marketing, graphic design"
+      />
     </Head>
   );
 };

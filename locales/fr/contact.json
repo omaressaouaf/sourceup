@@ -1,0 +1,12 @@
+{
+  "contactUs": "Contactez-nous",
+  "formTitle" : "Parlez-nous de votre projet",
+  "sidebarTitle": "Contact et médias sociaux",
+  "sidebarParagraph": "n'hésitez pas à nous contacter en utilisant les informations ci-dessous ou envoyez-nous un e-mail rapide dans le formulaire",
+  "name": "Nom",
+  "phone": "Téléphone",
+  "subject": "Sujet",
+  "message": "Message",
+  "about": "À Propos de",
+  "send" : "Envoyer"
+}

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Button = ({ className, variant, children, outline, ...otherProps }) => {
+const Button = ({ className = "", variant, children, outline, ...otherProps }) => {
   const variantClasses = {
     brand: outline
       ? "text-brand bg-transparent border border-brand border-opacity-80 hover:bg-brand-gradient hover:text-gray-50 focus:text-gray-50 focus:bg-brand-gradient"
@@ -11,11 +11,7 @@ const Button = ({ className, variant, children, outline, ...otherProps }) => {
   };
   return (
     <button
-      className={`${
-        variantClasses[variant]
-      } text-sm uppercase px-5 py-2 shadow-lg focus:outline-none focus:ring-1 hover:opacity-95 disabled:opacity-50 disabled:cursor-default ${
-        className && className
-      }`}
+      className={`${variantClasses[variant]} text-sm uppercase px-5 py-2 shadow-lg focus:outline-none focus:ring-1 hover:opacity-95 disabled:opacity-50 disabled:cursor-default ${className}`}
       {...otherProps}
     >
       {children}

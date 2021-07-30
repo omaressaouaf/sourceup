@@ -30,13 +30,13 @@ const About = () => {
           </div>
           <div className="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
             <ScrollAnimation animation="zoom-in">
-              <Heading size={4}>{t("getToKnowUs")}</Heading>
-              <div className="flex items-center gap-3 mt-4">
+              <Heading size={4} noHeight>{t("getToKnowUs")}</Heading>
+              <div className="flex items-center gap-3 mt-8">
                 <Image src="/images/icon.svg" width="60" height="60" alt="source up logo" />
                 <div>
-                  <h2 className="font-semibold text-xl mb-1 ml-1">SourceUp</h2>
+                  <h2 className="font-semibold text-xl mb-1 ml-1">{process.env.NEXT_PUBLIC_APP_NAME}</h2>
                   <p className="font-semibold text-sm text-gray-700">
-                  &quot;Source Code your business to the net&quot;
+                    &quot;Source Code your business to the net&quot;
                   </p>
                 </div>
               </div>

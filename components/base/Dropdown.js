@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import ClickAwayListener from "react-click-away-listener";
 
-const Dropdown = ({ className, title, icon, items }) => {
+const Dropdown = ({ className = "", title, icon, items }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
@@ -12,9 +12,7 @@ const Dropdown = ({ className, title, icon, items }) => {
         <button
           onClick={() => setDropdownOpen(prevVal => !prevVal)}
           type="button"
-          className={`px-6 py-2 mr-4 text-base text-gray-50 transition-all duration-300 ease-in-out  focus:outline-none ${
-            className && className
-          }`}
+          className={`px-6 py-2 mr-4 text-base text-gray-50 transition-all duration-300 ease-in-out  focus:outline-none ${className}`}
           aria-expanded="true"
           aria-haspopup="true"
         >
