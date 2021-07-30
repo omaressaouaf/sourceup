@@ -62,6 +62,7 @@ const Projects = () => {
               >
                 <div className="">
                   <Image
+                    alt={project.name}
                     placeholder="blur"
                     blurDataURL={`/images/projects/${project.image}`}
                     src={`/images/projects/${project.image}`}
