@@ -6,7 +6,7 @@ const variantClasses = {
   error: "bg-red-500",
 };
 
-const Alert = ({ showToast, variant, icon, children }) => {
+const Toast = ({ showToast, variant, icon, children }) => {
   return (
     <AnimatePresence>
       {showToast && (
@@ -26,11 +26,11 @@ const Alert = ({ showToast, variant, icon, children }) => {
   );
 };
 
-Alert.propTypes = {
+Toast.propTypes = {
   showToast: PropTypes.bool,
   variant: PropTypes.oneOf(["brand", "error"]).isRequired,
   icon: PropTypes.string,
   children: PropTypes.any,
 };
 
-export default Alert;
+export default Toast;
