@@ -1,6 +1,6 @@
 {
   "contactUs": "Contactez-nous",
-  "formTitle" : "Parlez-nous de votre projet",
+  "formTitle": "Parlez-nous de votre projet",
   "sidebarTitle": "Contact et médias sociaux",
   "sidebarParagraph": "n'hésitez pas à nous contacter en utilisant les informations ci-dessous ou envoyez-nous un e-mail rapide dans le formulaire",
   "name": "Nom",
@@ -8,5 +8,9 @@
   "subject": "Sujet",
   "message": "Message",
   "about": "À Propos de",
-  "send" : "Envoyer"
+  "send": "Envoyer",
+  "isRequired": "est requis",
+  "isInvalid": "est invalide",
+  "emailSent": "L'e-mail est envoyé avec succès",
+  "emailNotSent" : "L'e-mail n'a pas été envoyé. réessayer"
 }

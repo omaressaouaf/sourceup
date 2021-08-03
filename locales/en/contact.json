@@ -8,5 +8,9 @@
   "subject": "Subject",
   "message": "Message",
   "about": "About",
-  "send" : "Send"
+  "send": "Send",
+  "isRequired": "is required",
+  "isInvalid": "is invalid",
+  "emailSent": "Email is sent successfully",
+  "emailNotSent" : "Email wasn't sent. try again"
 }

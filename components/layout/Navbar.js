@@ -27,7 +27,7 @@ const Navbar = () => {
         <nav
           className={`${
             mobileMenuOpen ? "h-32" : "h-0 opacity-0 mt-0 pt-0"
-          }  lg:opacity-100 lg:h-14 transition-all duration-300  overflow-visible  lg:flex flex-wrap items-center justify-center text-base mt-8  lg:mt-0`}
+          }  lg:opacity-100 lg:h-14 transition-all duration-150 overflow-visible  lg:flex flex-wrap items-center justify-center text-base mt-8  lg:mt-0`}
         >
           <ul className="items-center inline-block list-none space-y-5 lg:space-y-0 lg:inline-flex">
             <NavbarItem title="Services" pathname="/services" />

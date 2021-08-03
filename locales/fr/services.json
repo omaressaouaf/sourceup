@@ -26,9 +26,9 @@
   "planning": "Ingénierie et planification",
   "planningDescription": "Nous commençons par mettre vos pensées dans le tableau. et l'ingénierie de vos besoins commerciaux et la modélisation de vos entités d'entreprise afin d'obtenir une infrastructure globale et approfondie pour votre système",
   "designing": "Construire un système de conception",
-  "designingDescription": "nous illustrons ensuite votre marque dans un système de conception puissant pour le Web et le mobile. et symbolisez votre marque par un logo et une carte de visite",
+  "designingDescription": "Nous illustrons ensuite votre marque dans un système de conception puissant pour le Web et le mobile. et symbolisez votre marque par un logo et une carte de visite (optionnel)",
   "developing": "Développement et expérimentation",
-  "developingDescription": "développer vos entités et modèles commerciaux vers un système numérique (web / mobile), afin de développer votre entreprise via le net",
+  "developingDescription": "Développer vos entités et modèles commerciaux vers un système numérique (web / mobile), afin de développer votre entreprise via le net",
   "deploying": "Déploiement et maintenance",
   "deployingDescription": "une fois la phase de développement terminée et la base de code bien testée, nous expédions votre application web vers vps/serveur d'hébergement mutualisé sur le web. pour votre application mobile, nous extrayons un fichier exécutable APK et le déployons sur le Google/Apple store. et nous restons avec vous un mois entier à observer, déboguer et maintenir votre application"
 }

@@ -1,5 +1,5 @@
 {
-  "subtitle": "We've got all what you need",
+  "subtitle": "We have everything you need",
   "softwareDevelopment": "Software Development",
   "digitalMarketing": "Digital Marketing",
   "graphicDesign": "Graphic Design",
@@ -24,11 +24,11 @@
   "methodology": "Methodology",
   "ourMethodology": "Our Methodology",
   "planning": "Engineering & Planning",
-  "planningDescription": "We start with putting your thoughts in the table . and engineering your business requirements and modeling your enterprise entities in order to get a global and deep infrastructure for your system",
+  "planningDescription": "We start with putting your thoughts on the table . and engineering your business requirements and modeling your enterprise entities in order to get a global and deep infrastructure for your system",
   "designing": "Building a design system",
-  "designingDescription": "we then illustrate your brand into a powerful design system for the web and mobile . and symbolize your brand to a logo and a business card",
+  "designingDescription": "We then illustrate your brand into a powerful design system for the web and mobile . and symbolize your brand to a logo and a business card (optional)",
   "developing": "Developing & Testing",
-  "developingDescription": "developing your business entities and models to a digital system (web / mobile), in order to expand your enterprise through the net",
+  "developingDescription": "Developing your business entities and models to a digital system (web / mobile), in order to expand your enterprise through the net",
   "deploying": "Deploying & maintaining",
-  "deployingDescription": "once the development phase is done and the code base is well tested , we ship your web application to vps / shared hosting server on the web . for your mobile application we extract a APK executable file and deploy it to the Google  / Apple store . and we stay with you a whole month observing , debugging and maintaning your application"
+  "deployingDescription": "Once the development phase is done and the code base is well tested , we ship your web application to a vps / shared hosting server on the web . for your mobile application we extract a executable APK and deploy it to the Google  / Apple store . and we stay with you a whole month observing , debugging and maintaning your application"
 }

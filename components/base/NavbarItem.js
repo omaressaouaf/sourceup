@@ -11,7 +11,7 @@ const NavbarItem = ({ className = "", title, icon, pathname }) => {
         <a
           className={`px-6 py-2 mr-4 text-base text-gray-50 transition duration-300 ease-in-out border-b  border-brand  focus:outline-none ${
             pathname === router.pathname
-              ? "border-opacity-80"
+              ? "border-opacity-0 lg:border-opacity-80"
               : "border-opacity-0 hover:border-opacity-80"
           } ${className}`}
         >

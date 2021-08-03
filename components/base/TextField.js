@@ -1,32 +1,28 @@
 import PropTypes from "prop-types";
+import { forwardRef } from "react";
 
-const TextField = ({
-  className = "",
-  error,
-  helperText,
-  helperTextColor,
-  textarea,
-  ...otherProps
-}) => {
-  const classes = `w-full px-3 py-3 mt-2 shadow-sm border border-gray-300 placeholder-gray-500 text-sm text-gray-800 rounded focus:outline-none focus:ring-1 ${
-    error ? "focus:ring-red-500" : "focus:ring-brand-light"
-  } ${className}`;
+const TextField = forwardRef(
+  ({ className = "", error, helperText, helperTextColor, textarea, ...otherProps }, ref) => {
+    const classes = `w-full px-3 py-3 mt-2 shadow-sm border  placeholder-gray-500 text-sm text-gray-800 rounded focus:outline-none focus:ring-1 ${
+      error ? "border-red-500 focus:ring-red-200" : "border-gray-300 focus:ring-brand-light"
+    } ${className}`;
 
-  return (
-    <>
-      {textarea ? (
-        <textarea rows="5" {...otherProps} className={classes}></textarea>
-      ) : (
-        <input {...otherProps} className={classes} />
-      )}
-      {helperText && (
-        <span className={`text-xs ml-1 ${error ? "text-red-600" : helperTextColor}`}>
-          {helperText}
-        </span>
-      )}
-    </>
-  );
-};
+    return (
+      <>
+        {textarea ? (
+          <textarea ref={ref} rows="5" {...otherProps} className={classes}></textarea>
+        ) : (
+          <input ref={ref} {...otherProps} className={classes} />
+        )}
+        {helperText && (
+          <span className={`text-xs ml-1 ${error ? "text-red-600" : helperTextColor}`}>
+            {helperText}
+          </span>
+        )}
+      </>
+    );
+  }
+);
 
 TextField.propTypes = {
   className: PropTypes.string,
