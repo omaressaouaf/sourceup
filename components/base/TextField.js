@@ -23,7 +23,7 @@ const TextField = forwardRef(
     );
   }
 );
-
+TextField.displayName = 'TextField'
 TextField.propTypes = {
   className: PropTypes.string,
   error: PropTypes.bool,
