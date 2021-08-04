@@ -12,5 +12,6 @@
   "isRequired": "is required",
   "isInvalid": "is invalid",
   "emailSent": "Email is sent successfully",
-  "emailNotSent" : "Email wasn't sent. try again"
+  "emailNotSent" : "Email wasn't sent. try again",
+  "reachTheTeam" : "Reach The Team"
 }

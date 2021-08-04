@@ -12,7 +12,7 @@ const Dropdown = ({ className = "", title, icon, items }) => {
         <button
           onClick={() => setDropdownOpen(prevVal => !prevVal)}
           type="button"
-          className={`px-6 py-2 mr-4 text-base text-gray-50 transition-all duration-300 ease-in-out  focus:outline-none ${className}`}
+          className={`px-6 py-2 mr-4 text-base text-gray-50 focus:outline-none ${className}`}
           aria-expanded="true"
           aria-haspopup="true"
         >

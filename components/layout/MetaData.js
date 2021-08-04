@@ -11,25 +11,39 @@ const MetaData = ({ title, description, canonical }) => {
   }
 
   const schemaData = {
-    "@context": "https://schema.org/",
-    "@type": "Product",
-    name: "Name of service",
-    image: "https://somewebsite.com/static/images/some-image.jpg",
-    description:
-      "I seek the means to fight injustice. To turn fear against those who prey on the fearful. Someone like you. Someone who'll rattle the cages. My anger outweighs my guilt.",
-    brand: "Company Name",
-    review: {
-      "@type": "Review",
-      name: "Company Name ",
-      reviewBody:
-        "It was a dog. It was a big dog. It's not who I am underneath but what I do that defines me. Well, you see... I'm buying this hotel and setting some new rules about the pool area.",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: process.env.NEXT_PUBLIC_APP_NAME,
+    legalName: "Elite Strategies Llc",
+    url: process.env.NEXT_PUBLIC_APP_URL,
+    logo: process.env.NEXT_PUBLIC_APP_URL + "/images/logo-col.jpg",
+    foundingDate: "2021",
+    founders: [
+      {
+        "@type": "Person",
+        name: "Omar Essaouaf",
       },
-      datePublished: "2020-04-06",
-      author: { "@type": "Person", name: "Emma" },
+      {
+        "@type": "Person",
+        name: "Oussama Rafii",
+      },
+      {
+        "@type": "Person",
+        name: "Mohamed ben wannes",
+      },
+    ],
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Verdun",
+      addressCountry: "MOROCCO",
     },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      telephone: "[+212 656-209865]",
+      email: process.env.NEXT_PUBLIC_APP_EMAIL_PRO,
+    },
+    sameAs: [process.env.NEXT_PUBLIC_APP_FACEBOOK, process.env.NEXT_PUBLIC_APP_INSTAGRAM],
   };
   return (
     <Head>
