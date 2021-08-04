@@ -36,7 +36,7 @@ const About = () => {
                 <div>
                   <h2 className="font-semibold text-xl mb-1 ml-1">{process.env.NEXT_PUBLIC_APP_NAME}</h2>
                   <p className="font-semibold text-sm text-gray-700">
-                    &quot;Source Code your business to the net&quot;
+                    &quot;Source Code your business&quot;
                   </p>
                 </div>
               </div>

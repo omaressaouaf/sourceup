@@ -9,6 +9,7 @@ const contact = () => {
       <MetaData
         title="Contact"
         description="contactez-nous à tout moment pour votre projet web, mobile, conception graphique"
+        canonical="https://www.sourceup.ma/contact"
       />
       <Contact />
     </>
