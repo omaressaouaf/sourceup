@@ -69,8 +69,8 @@ const MetaData = ({ title, description, canonical }) => {
         name="robots"
         content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
       />
-      <link rel="alternate" hreflang="fr-MA" href="https://sourceup.ma/" />
-      <link rel="alternate" hreflang="en-MA" href="https://sourceup.ma/en" />
+      <link rel="alternate" hrefLang="fr-MA" href="https://sourceup.ma/" />
+      <link rel="alternate" hrefLang="en-MA" href="https://sourceup.ma/en" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
