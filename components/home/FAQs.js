@@ -58,7 +58,7 @@ const FAQs = () => {
             {faqs.map((faq, index) => {
               return (
                 <div key={index}>
-                  <div className="question-and-answer cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg group">
+                  <div className="question-and-answer xl:cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg group">
                     <dt className="question">
                       <div
                         onClick={() => toggleAnswerOpen(faq.answer)}

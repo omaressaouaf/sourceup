@@ -31,7 +31,7 @@ const ContactShortInfo = () => {
             </div>
             <div className="flex flex-col space-y-1 text-gray-800">
               <p className="text-xl">Email</p>
-              <p className="text-sm font-semibold">{process.env.NEXT_PUBLIC_APP_EMAIL_PRO}</p>
+              <p className="text-sm font-semibold text-gray-700">{process.env.NEXT_PUBLIC_APP_EMAIL_PRO}</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
@@ -40,7 +40,7 @@ const ContactShortInfo = () => {
             </div>
             <div className="flex flex-col space-y-1 text-gray-800">
               <p className="text-xl">{t("phone")}</p>
-              <p className="text-sm font-semibold">{process.env.NEXT_PUBLIC_APP_PHONE}</p>
+              <p className="text-sm font-semibold text-gray-700">{process.env.NEXT_PUBLIC_APP_PHONE}</p>
             </div>
           </div>
         </div>
