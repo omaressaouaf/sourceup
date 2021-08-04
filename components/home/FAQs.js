@@ -54,7 +54,7 @@ const FAQs = () => {
           </Heading>
         </div>
         <div>
-          <dl className="mt-8 mx-auto max-w-screen-sm lg:max-w-screen-lg flex flex-col">
+          <div className="mt-8 mx-auto max-w-screen-sm lg:max-w-screen-lg flex flex-col">
             {faqs.map((faq, index) => {
               return (
                 <div key={index}>
@@ -83,7 +83,7 @@ const FAQs = () => {
                 </div>
               );
             })}
-          </dl>
+          </div>
         </div>
       </ScrollAnimation>
     </section>
