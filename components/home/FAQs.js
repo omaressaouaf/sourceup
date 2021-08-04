@@ -59,7 +59,7 @@ const FAQs = () => {
               return (
                 <div key={index}>
                   <div className="question-and-answer xl:cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg group">
-                    <dt className="question">
+                    <div className="question">
                       <div
                         onClick={() => toggleAnswerOpen(faq.answer)}
                         className="flex justify-between"
@@ -71,14 +71,14 @@ const FAQs = () => {
                           ></i>
                         </div>
                       </div>
-                    </dt>
-                    <dd
+                    </div>
+                    <div
                       className={`answer mt-2 leading-snug text-sm text-gray-700 transition-all duration-150 ${
                         faq.answerOpen ? "opacity-100 h-44 md:h-20" : "opacity-0 h-0"
                       }`}
                     >
                       {faq.answer}
-                    </dd>
+                    </div>
                   </div>
                 </div>
               );
