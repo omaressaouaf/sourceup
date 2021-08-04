@@ -65,10 +65,6 @@ const MetaData = ({ title, description, canonical }) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:site_name" content={process.env.NEXT_PUBLIC_APP_NAME} />
       <meta name="twitter:image:alt" content={process.env.NEXT_PUBLIC_APP_NAME + " Logo"} />
-      <meta
-        name="robots"
-        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-      />
       <link rel="alternate" hrefLang="fr-MA" href="https://sourceup.ma/" />
       <link rel="alternate" hrefLang="en-MA" href="https://sourceup.ma/en" />
       <script
