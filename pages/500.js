@@ -12,13 +12,11 @@ const Custom404 = () => {
     <>
       <MetaData title="Erreur 500" description="Erreur interne du serveur" />
       <div className="flex items-center justify-center mt-20">
-        <div className="flex flex-col md:flex-row items-center gap-5 ml-10 xl:ml-32">
-          <ScrollAnimation animation="fade-right">
+        <ScrollAnimation animation="zoom-in">
+          <div className="flex flex-col md:flex-row items-center gap-5 ml-10 xl:ml-32">
             <div className="border-r border-gray-400 border-opacity-50 pr-5">
               <Image src="/images/500.svg" width="500" height="300" layout="intrinsic" />
             </div>
-          </ScrollAnimation>
-          <ScrollAnimation animation="fade-left">
             <div className="px-5">
               <h1 className="text-5xl text-transparent bg-clip-text bg-secondary-gradient py-2">
                 {t("serverErrorTitle")}
@@ -30,8 +28,8 @@ const Custom404 = () => {
                 </a>
               </Link>
             </div>
-          </ScrollAnimation>
-        </div>
+          </div>
+        </ScrollAnimation>
       </div>
     </>
   );
