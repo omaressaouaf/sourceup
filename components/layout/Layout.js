@@ -13,12 +13,12 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col h-screen has-cool-scrollbar">
       <Navbar />
-      <main className={pathname === "/contact" && "mb-10"}>
+      <main className={pathname === "/contact" ? "mb-10" : ""}>
         <article>{children}</article>
         <article>
           {pathname !== "/contact" && pathname !== "/" && <WaveDivider />}
           {pathname !== "/contact" && (
-            <div className={pathname !== "/" && "bg-gray-100"}>
+            <div className={pathname !== "/" ? "bg-gray-100" : ""}>
               <ContactShortInfo />
             </div>
           )}
