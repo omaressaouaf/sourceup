@@ -53,7 +53,7 @@
 }
 ._2iWL7 {
   bottom: 80px !important;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
 }
 ._2rVjT {
   padding: 10px 14px;
@@ -61,7 +61,7 @@
 
 ._1bpcM {
   bottom: 0 !important;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
   background-color: rgb(79, 206, 93) !important;
   color: rgb(255, 255, 255) !important;
   border: 1px rgba(0, 0, 0, 0.055) solid;
