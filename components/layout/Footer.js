@@ -68,6 +68,7 @@ const Footer = () => {
                 href={process.env.NEXT_PUBLIC_APP_FACEBOOK}
                 rel="noopener noreferrer"
                 aria-label="Facebook"
+                target="_blank"
               >
                 <i className="fab fa-facebook fa-2x hover:text-brand transition-all duration-300"></i>
               </a>
@@ -75,6 +76,7 @@ const Footer = () => {
                 href={process.env.NEXT_PUBLIC_APP_INSTAGRAM}
                 rel="noopener noreferrer"
                 aria-label="Instagram"
+                target="_blank"
               >
                 <i className="fab fa-instagram fa-2x hover:text-brand transition-all duration-300"></i>
               </a>
