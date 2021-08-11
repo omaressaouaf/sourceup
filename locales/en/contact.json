@@ -13,5 +13,8 @@
   "isInvalid": "is invalid",
   "emailSent": "Email is sent successfully",
   "emailNotSent" : "Email wasn't sent. try again",
-  "reachTheTeam" : "Reach The Team"
+  "reachTheTeam" : "Reach The Team",
+  "whatsappTextReplyTime" : "Typically replies within a day",
+  "whatsappMessage" : "Hello . this is mohamed business marketer! 👋🏼 \n\nWhat can i do for you?",
+  "whatsappSendButton" : "Send"
 }

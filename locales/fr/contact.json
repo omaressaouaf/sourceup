@@ -13,5 +13,8 @@
   "isInvalid": "est invalide",
   "emailSent": "L'e-mail est envoyé avec succès",
   "emailNotSent" : "L'e-mail n'a pas été envoyé. réessayer",
-  "reachTheTeam" : "Atteindre l'équipe"
+  "reachTheTeam" : "Atteindre l'équipe",
+  "whatsappTextReplyTime" : "Répond généralement dans la journée",
+  "whatsappMessage" : "Salut . c'est mohamed commerçant d'affaires ! 👋🏼 \n\nQue puis-je faire pour vous ?",
+  "whatsappSendButton" : "Envoyer"
 }
