@@ -15,7 +15,7 @@ const Custom404 = () => {
         <ScrollAnimation animation="zoom-in">
           <div className="flex flex-col md:flex-row items-center gap-5 ml-10 xl:mr-32">
             <div className="border-r border-gray-400 border-opacity-50 pr-5">
-              <Image src="/images/404.svg" width="500" height="270" layout="intrinsic" />
+              <Image src="/images/404.svg" width="500" height="270" alt="Not Found" layout="intrinsic" />
             </div>
             <div className="px-5">
               <h1 className="text-5xl text-transparent bg-clip-text bg-secondary-gradient py-2">
