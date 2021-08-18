@@ -1,10 +1,10 @@
 module.exports = {
-  siteUrl: "https://www.sourceup.ma",
+  siteUrl: "https://www.sourceup.ma/",
   generateRobotsTxt: true,
   exclude: ["/404", "/500", "/fr", "/fr/*", "/en", "/en/*"],
   alternateRefs: [
     {
-      href: "https://www.sourceup.ma/en",
+      href: "https://www.sourceup.ma/en/",
       hreflang: "en",
     },
   ],
