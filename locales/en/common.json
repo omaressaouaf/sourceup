@@ -39,5 +39,6 @@
   "notFoundParagraph" : "It looks like you've been lost. check the url in the address bar",
   "goHome"  : "Go Back Home",
   "serverErrorTitle" : "Internal Server Error",
-  "serverErrorParagraph" : "It looks like our server has been for this request. try to go back home"
+  "serverErrorParagraph" : "It looks like our server has been for this request. try to go back home",
+  "server" : "Server"
 }
