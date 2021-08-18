@@ -47,6 +47,7 @@ const MetaData = ({ title, description, canonical }) => {
   };
   return (
     <Head>
+      <link rel="icon" type="image/png" href="favicon.ico"></link>
       <title>{constructedTitle}</title>
       <meta name="description" content={description} />
       <meta
