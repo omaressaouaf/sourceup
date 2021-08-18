@@ -1,3 +1,9 @@
-# Allow all user agents.
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://www.sourceup.ma
+
+# Sitemaps
+Sitemap: https://www.sourceup.ma/sitemap.xml

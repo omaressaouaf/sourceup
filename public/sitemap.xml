@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>http://localhost:3000</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.991Z</lastmod></url>
-<url><loc>http://localhost:3000/500</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/contact</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/services</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/fr/500</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/en/500</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/fr/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/en/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/fr/contact</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/en/contact</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/fr</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/en</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/fr/services</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/en/services</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/fr/404</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
-<url><loc>http://localhost:3000/en/404</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T12:46:39.992Z</lastmod></url>
+<url><loc>https://www.sourceup.ma</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T13:17:15.884Z</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://www.sourceup.ma/en"/></url>
+<url><loc>https://www.sourceup.ma/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T13:17:15.885Z</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://www.sourceup.ma/en/about"/></url>
+<url><loc>https://www.sourceup.ma/contact</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T13:17:15.885Z</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://www.sourceup.ma/en/contact"/></url>
+<url><loc>https://www.sourceup.ma/services</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-08-18T13:17:15.885Z</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://www.sourceup.ma/en/services"/></url>
 </urlset>
