@@ -52,7 +52,17 @@ const MetaData = ({ title, description, canonical }) => {
       <meta name="description" content={description} />
       <meta
         name="keywords"
-        content="création site web, site web, logiciel, logiciels, informatique, conseil, erp, crm, vidéoconférence, développement, développement logiciel, application mobile, software, websites, websites development, mobile development, web development, digital marketing, graphic design"
+        content="création site web, site web, conception web, logiciel, logiciels, informatique, conseil, erp, crm, vidéo conférence,marketing digital, développement, développement logiciel, application mobile, source up, sourceup, agence informatique, informatique, maroc, software, websites, websites development, web design, web development, mobile development, web development, digital marketing, graphic design , moroocan agency, IT agency , morocco , casablanca, 	web development maroc, web development agency, web development application, web development business, développement web à, création d'un site web prix, 	création d'un site web professionnel, creation site web boutique en ligne, agence informatique au maroc,agence digitale informatique, agence web et informatique, développement de logiciel
+        développement applicatif
+        informatique décisionnelle
+        Business intelligence
+        IONIC
+        TMA
+        Intelligence artificielle
+        Offshore
+        France
+        Paris
+        Logigroup, creation des sites web maroc"
       />
       {canonical && <link rel="canonical" href={canonical} />}
       <meta property="og:type" content="article" />

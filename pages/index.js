@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <MetaData
-        description="Créez un site Web / une application mobile pour votre affaire. et créez votre système de conception avec une interface utilisateur, un logo et une carte de visite"
+        description="Source Up est une agence marocaine spécialisée dans la création des site Web et les applications mobile pour votre affaire, les système de conception avec une interface utilisateur, les logos et les cartes de visite"
         canonical="https://www.sourceup.ma/"
       />
       <Hero />
