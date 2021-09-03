@@ -3,7 +3,7 @@ import Image from "next/image";
 import Heading from "../base/Heading";
 
 const Clients = () => {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation("common")
   const clients = [
     {
       image: "tousalik.png",
