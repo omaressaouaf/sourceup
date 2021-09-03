@@ -2,9 +2,10 @@ import MetaData from "../components/layout/MetaData";
 import Hero from "../components/home/Hero";
 import Expertises from "../components/home/Expertises";
 import Technologies from "../components/home/Technologies";
-import Projects from "../components/about/Projects";
+import LatestProjects from "../components/projects/LatestProjects";
 import FAQs from "../components/home/FAQs";
 import WaveDivider from "../components/shared/WaveDivider";
+import Clients from "../components/home/Clients";
 
 export default function Home() {
   return (
@@ -17,9 +18,10 @@ export default function Home() {
       <Expertises />
       <WaveDivider />
       <Technologies />
-      <Projects />
+      <LatestProjects />
       <WaveDivider className="mt-10" />
       <FAQs />
+      <Clients />
     </>
   );
 }

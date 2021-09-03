@@ -30,8 +30,8 @@
     "faqs": "Frequently Asked Questions",
     "howMuchForSoftware": "How much do you charge for a software (web / mobile)",
     "howMuchForSoftwareAnswer": "it depends on what application type it is. and what kind of features it possesses . once you tell us about your project we will be able to put a charge record for your project. for example ecommerce projects with typical functionalities usually are worth at least 5000 MAD",
-    "howMuchForHosting": "How much does hosting cost?",
-    "howMuchForHostingAnswer": "hosting usually costs at least 30 MAD per month. It can cost a lot more depending on your requirements. Hosting prices usually increase the more website visitors you have.",
+    "howMuchForHosting": "How much does web hosting cost?",
+    "howMuchForHostingAnswer": "web hosting usually costs at least 30 MAD per month. It can cost a lot more depending on your requirements. Hosting prices usually increase the more website visitors you have.",
     "doYouOfferPaymentSchedule": "Do you offer a payment schedule?",
     "doYouOfferPaymentScheduleAnswer": "yes, we split the payment into two. The first 50% is usually taken once you have seen the mockup of your homepage and you’re happy to move forward. The following 50% is taken after the project is complete."
   },
@@ -40,5 +40,7 @@
   "goHome"  : "Go Back Home",
   "serverErrorTitle" : "Internal Server Error",
   "serverErrorParagraph" : "It looks like our server has been for this request. try to go back home",
-  "server" : "Server"
+  "server" : "Server",
+  "projects"  : "Projects",
+  "ourClients" : "Our Clients"
 }

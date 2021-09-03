@@ -1,21 +1,22 @@
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
+import Link from "next/link";
 import Button from "../base/Button";
 import Heading from "../base/Heading";
 import ScrollAnimation from "../shared/ScrollAnimation";
 
-const Projects = () => {
-  const { t } = useTranslation("about");
+const LatestProjects = () => {
+  const { t } = useTranslation("projects");
 
   const projects = [
     {
-      name: "Tousalik",
-      description: t("tousalikDescription"),
-      image: "tousalik.png",
-      url: "https://tousalik.com",
+      name: "Xeryos",
+      description: t("xeryosDescription"),
+      image: "xeryos.png",
+      url: "https://www.xeryos.com/",
       category: {
-        name: t("marketing"),
-        icon: "fa fa-chart-line",
+        name: t("finance"),
+        icon: "fa fa-credit-card",
         color: "text-brand",
       },
     },
@@ -31,14 +32,14 @@ const Projects = () => {
       },
     },
     {
-      name: "ConnecTo",
-      description: t("connectoDescription"),
-      image: "connecto.png",
-      url: "https://connecto.sourceup.ma",
+      name: "Volzak",
+      description: t("volzakDescription"),
+      image: "volzak.png",
+      url: "https://volzak.com/",
       category: {
-        name: t("entertainment"),
-        icon: "fab fa-twitter",
-        color: "text-blue-500",
+        name: t("ecommerce"),
+        icon: "fa fa-shopping-cart",
+        color: "text-yellow-600",
       },
     },
   ];
@@ -66,7 +67,6 @@ const Projects = () => {
                     placeholder="blur"
                     blurDataURL={`/images/projects/${project.image}`}
                     src={`/images/projects/${project.image}`}
-                    className="shadow"
                     width="550"
                     height="280"
                   />
@@ -89,9 +89,18 @@ const Projects = () => {
             );
           })}
         </div>
+        <div className="flex justify-center items-center mt-10 container">
+          <Link href="/projects">
+            <a className="text-center w-3/4 md:w-11/12 lg:w-1/4">
+              <Button variant="secondary" outline className="w-full" >
+                {t("seeMore")}
+              </Button>
+            </a>
+          </Link>
+        </div>
       </ScrollAnimation>
     </section>
   );
 };
 
-export default Projects;
+export default LatestProjects;

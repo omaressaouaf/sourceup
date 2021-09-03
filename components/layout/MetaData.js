@@ -62,7 +62,7 @@ const MetaData = ({ title, description, canonical }) => {
         Offshore
         France
         Paris
-        Logigroup, creation des sites web maroc"
+        Logigroup, creation des sites web maroc, volzak, yankees, yankees smashburger, vcc-club, xeryos, tousalik"
       />
       {canonical && <link rel="canonical" href={canonical} />}
       <meta property="og:type" content="article" />

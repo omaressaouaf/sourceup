@@ -31,6 +31,7 @@ const Navbar = () => {
         >
           <ul className="items-center inline-block list-none space-y-5 lg:space-y-0 lg:inline-flex">
             <NavbarItem title="Services" pathname="/services" />
+            <NavbarItem title={t('projects')} pathname="/projects" />
             <NavbarItem title={t("about")} pathname="/about" />
             <NavbarItem title="Contact" pathname="/contact" />
           </ul>

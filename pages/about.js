@@ -1,5 +1,5 @@
 import About from "../components/about/About";
-import Projects from "../components/about/Projects";
+import LatestProjects from "../components/projects/LatestProjects";
 import MetaData from "../components/layout/MetaData";
 
 const about = () => {
@@ -12,7 +12,7 @@ const about = () => {
         canonical="https://www.sourceup.ma/about"
       />
       <About />
-      <Projects />
+      <LatestProjects />
     </div>
   );
 };

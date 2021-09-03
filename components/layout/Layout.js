@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
           <article>
             {pathname !== "/contact" && pathname !== "/" && <WaveDivider />}
             {pathname !== "/contact" && (
-              <div className={pathname !== "/" ? "bg-gray-100" : ""}>
+              <div className={pathname !== "/" ? "bg-gray-100" : "bg-gray-100"}>
                 <ContactShortInfo />
               </div>
             )}

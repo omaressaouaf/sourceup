@@ -40,6 +40,26 @@ const Technologies = () => {
     ],
     Frontend: [
       {
+        name : "HTML",
+        website : 'https://developer.mozilla.org/en-US/docs/Web/html',
+        logo : "html.svg",
+      },
+      {
+        name : "CSS",
+        website : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        logo : "css.svg",
+      },
+      {
+        name : "Bootstrap",
+        website : "https://getbootstrap.com/",
+        logo : "bootstrap.svg"
+      },
+      {
+        name  : "Tailwind CSS",
+        website : "https://tailwindcss.com/",
+        logo : "tailwindcss.svg"
+      },
+      {
         name: "Javascript",
         website: "https://www.javascript.com/",
         logo: "javascript.svg",

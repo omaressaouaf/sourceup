@@ -30,14 +30,16 @@
     "faqs": "Foire aux questions",
     "howMuchForSoftware": "Combien facturez-vous pour un software (web / mobile)",
     "howMuchForSoftwareAnswer": "cela dépend de quel type d'application il s'agit. et quel type de fonctionnalités il possède. une fois que vous nous aurez parlé de votre projet, nous pourrons mettre un cahier de charge pour votre projet. par exemple, les projets de commerce électronique avec des fonctionnalités typiques valent généralement au moins 5000 MAD",
-    "howMuchForHosting": "Combien coûte le hosting?",
-    "howMuchForHostingAnswer": "le hosting coûte généralement au moins 30 MAD par mois. Cela peut coûter beaucoup plus cher en fonction de vos besoins. Les prix d'hébergement augmentent généralement avec le nombre de visiteurs de votre site Web.",
+    "howMuchForHosting": "Combien coûte l'hébergement web?",
+    "howMuchForHostingAnswer": "l'hébergement web coûte généralement au moins 30 MAD par mois. Cela peut coûter beaucoup plus cher en fonction de vos besoins. Les prix d'hébergement augmentent généralement avec le nombre de visiteurs de votre site Web.",
     "doYouOfferPaymentSchedule": "Proposez-vous un échéancier de paiement ?",
     "doYouOfferPaymentScheduleAnswer": "oui, nous divisons le paiement en deux. Les premiers 50% sont généralement prélevés une fois que vous avez vu la maquette de votre page d'accueil et que vous êtes heureux d'aller de l'avant. Les 50 % suivants sont prélevés une fois le projet terminé."
   },
-  "notFoundTitle" : "Page non trouvée",
-  "notFoundParagraph" : "On dirait que tu es perdu. vérifier l'url dans la barre d'adresse",
-  "goHome"  : "Revenir à l'accueil",
-  "serverErrorTitle" : "Erreur interne du serveur",
-  "serverErrorParagraph" : "Il semble que notre serveur ait été pour cette demande. essaie de rentrer à la maison"
+  "notFoundTitle": "Page non trouvée",
+  "notFoundParagraph": "On dirait que tu es perdu. vérifier l'url dans la barre d'adresse",
+  "goHome": "Revenir à l'accueil",
+  "serverErrorTitle": "Erreur interne du serveur",
+  "serverErrorParagraph": "Il semble que notre serveur ait été pour cette demande. essaie de rentrer à la maison",
+  "projects": "Projets",
+  "ourClients": "Nos Clients"
 }
