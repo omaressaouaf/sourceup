@@ -16,7 +16,7 @@ const Clients = () => {
       bgColor: "bg-gray-900",
     },
     {
-      image: "vcc-club.png",
+      image: "vccclub.png",
     },
     {
       image: "xeryos.png",

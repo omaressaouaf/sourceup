@@ -47,7 +47,7 @@ const Projects = () => {
     {
       name: "VCC-Club",
       description: t("vccClubDescription"),
-      image: "vcc-club.png",
+      image: "vccclub.png",
       url: "https://www.vcc-club.com/",
       category: {
         name: t("finance"),
