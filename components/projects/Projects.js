@@ -66,6 +66,17 @@ const Projects = () => {
         color: "text-brand",
       },
     },
+    {
+      name: "Katsu Sushi",
+      description: t("katsuDescription"),
+      image: "katsu.png",
+      url: "https://www.katsu.ma/",
+      category: {
+        name: t("foodDelivery"),
+        icon: "fa fa-hamburger",
+        color: "text-green-600",
+      },
+    },
 
     {
       name: "ConnecTo",

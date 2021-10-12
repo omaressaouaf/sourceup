@@ -1,11 +1,12 @@
 {
   "subtitle": "Check out our pricing for the most popular packs amongs our clients",
   "contactUs": "contact us",
-  "contactUsForMore": "For mobile development and social media marketing please feel free to",
+  "contactUsForMore": "for mobile development and social media marketing please feel free to",
   "websites": "Websites",
   "graphicDesign": "Graphic Design",
   "popular": "Popular",
   "staticWebsite": "Showcase / Static Website",
   "ecommerceWebsite": "Ecommerce Solution",
-  "webApplication": "Web Application"
+  "webApplication": "Web Application",
+  "pricesAreNegotiable" : "Prices are negotiable. and"
 }
