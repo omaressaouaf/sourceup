@@ -26,11 +26,12 @@ const Navbar = () => {
         </Link>
         <nav
           className={`${
-            mobileMenuOpen ? "h-32" : "h-0 opacity-0 mt-0 pt-0"
+            mobileMenuOpen ? "h-48" : "h-0 opacity-0 mt-0 pt-0"
           }  lg:opacity-100 lg:h-14 transition-all duration-150 overflow-visible  lg:flex flex-wrap items-center justify-center text-base mt-8  lg:mt-0`}
         >
           <ul className="items-center inline-block list-none space-y-5 lg:space-y-0 lg:inline-flex">
             <NavbarItem title="Services" pathname="/services" />
+            <NavbarItem title="Packs" pathname="/packs" />
             <NavbarItem title={t('projects')} pathname="/projects" />
             <NavbarItem title={t("about")} pathname="/about" />
             <NavbarItem title="Contact" pathname="/contact" />

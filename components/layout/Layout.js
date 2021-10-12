@@ -33,6 +33,13 @@ const Layout = ({ children }) => {
               sendButton={tContact("whatsappSendButton")}
               companyName="Mohammed Bnouanas"
             />
+
+            {/* <a
+              href="tel:+212625716365"
+              className="text-gray-50 bg-green-500 rounded-full px-5 py-4 shadow fixed bottom-2 right-4"
+            >
+              <i className="fa fa-phone"></i>
+            </a> */}
           </article>
         </main>
         <Footer />
