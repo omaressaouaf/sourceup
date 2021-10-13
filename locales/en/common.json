@@ -6,9 +6,9 @@
   "ourSocialMedia": "Our Social Media",
   "language": "Language",
   "followUsOnSocialMedia": "Follow us on social media",
-  "heroTitle": "IT services for the",
+  "heroTitle": "IT services ",
   "webAndMobile": "web & mobile",
-  "heroDescription": "Develop your business with a Clean code base and high performant web & mobile applications optimized for SEO . advanced technologies integration . and powerful design system . with an affordable price",
+  "heroDescription": "Develop your business with a Clean code base and high performant web & mobile applications optimized for SEO . advanced technologies integration . and powerful design system . with an affordable price at Source Up",
   "discount": "Discount",
   "discountText": "20% off for ecommerce solutions",
   "about": "About",
@@ -35,12 +35,12 @@
     "doYouOfferPaymentSchedule": "Do you offer a payment schedule?",
     "doYouOfferPaymentScheduleAnswer": "yes, we split the payment into two. The first 50% is usually taken once you have seen the mockup of your homepage and you’re happy to move forward. The following 50% is taken after the project is complete."
   },
-  "notFoundTitle" : "Page Not Found",
-  "notFoundParagraph" : "It looks like you've been lost. check the url in the address bar",
-  "goHome"  : "Go Back Home",
-  "serverErrorTitle" : "Internal Server Error",
-  "serverErrorParagraph" : "It looks like our server has been for this request. try to go back home",
-  "server" : "Server",
-  "projects"  : "Projects",
-  "ourClients" : "Our Clients"
+  "notFoundTitle": "Page Not Found",
+  "notFoundParagraph": "It looks like you've been lost. check the url in the address bar",
+  "goHome": "Go Back Home",
+  "serverErrorTitle": "Internal Server Error",
+  "serverErrorParagraph": "It looks like our server has been for this request. try to go back home",
+  "server": "Server",
+  "projects": "Projects",
+  "ourClients": "Our Clients"
 }
