@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <MetaData
-        description="Source Up est une agence marocaine spécialisée dans la création des site Web et les applications mobile pour votre affaire, les système de conception avec une interface utilisateur, les logos et les cartes de visite"
+        description={`${process.env.NEXT_PUBLIC_APP_NAME} est une agence marocaine spécialisée dans la création des site Web et les applications mobile pour votre affaire, les système de conception avec une interface utilisateur, les logos et les cartes de visite`}
         canonical="https://www.sourceup.ma/"
       />
       <Hero />
