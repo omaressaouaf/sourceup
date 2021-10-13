@@ -111,7 +111,7 @@ const ContactForm = () => {
                           })}
                           error={errors.name ? true : false}
                           helperText={errors.name && errors.name.message}
-                          placeholder="John Doe"
+                          placeholder="Ex : John Doe"
                         />
                       </div>
 
@@ -121,7 +121,7 @@ const ContactForm = () => {
                           {...registerInput("phone")}
                           error={errors.phone ? true : false}
                           helperText={errors.phone && errors.phone.message}
-                          placeholder="+212 6-433423"
+                          placeholder="Ex : +212 6-433423"
                         />
                       </div>
                       <div className="col-span-6 sm:col-span-3">
@@ -136,7 +136,7 @@ const ContactForm = () => {
                           })}
                           error={errors.email ? true : false}
                           helperText={errors.email && errors.email.message}
-                          placeholder="johndoe@gmail.com"
+                          placeholder="Ex : johndoe@gmail.com"
                         />
                       </div>
 
@@ -146,7 +146,7 @@ const ContactForm = () => {
                           {...registerInput("subject")}
                           error={errors.subject ? true : false}
                           helperText={errors.subject && errors.subject.message}
-                          placeholder="Application web ecommerce"
+                          placeholder="Ex : Pack Ecommerce"
                         />
                       </div>
                       <div className="col-span-6">

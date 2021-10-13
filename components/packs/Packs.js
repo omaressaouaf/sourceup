@@ -21,13 +21,14 @@ function Packs() {
           name: t("staticWebsite"),
           price: 3500,
           advantages: [
-            "1 Entire Product",
-            "Free Web Hosting for 1 year",
-            "1 Language",
-            "Mobile Friendly & responsive Design",
-            "2 Month of support",
+            t("freeWebHosting"),
+            "1-5 Pages",
+            t("contactForm"),
+            t("responsiveDesign"),
+            "1 " + t("language"),
+            t("support", { count: 2 }),
           ],
-          disadvantages: ["No Admin Panel", "No Free Initial SEO", "No Dynamic Data"],
+          disadvantages: [t("adminPanel"), t("freeInitialSeo"), t("dynamicData"), t("plugins")],
         },
         {
           name: t("ecommerceWebsite"),
@@ -35,31 +36,67 @@ function Packs() {
           oldPrice: 8000,
           popular: true,
           advantages: [
-            "1 Entire Product",
-            "Free Web Hosting for 1 year",
-            "1 Language",
-            "Mobile Friendly & responsive Design",
-            "2 Month of support",
+            t("freeWebHosting"),
+            t("limitlessPages"),
+            t("contactForm"),
+            t("responsiveDesign"),
+            "2 " + t("language"),
+            t("support", { count: 3 }),
+            t("imagesManagement"),
+            t("adminPanel"),
+            t("plugins"),
+            t("usersAndRoles"),
+            t("database"),
+            t("freeInitialSeo"),
+            t("sellingCapabilities"),
+            t("salesStatistics"),
+            t("payment"),
           ],
-          disadvantages: ["No Admin Panel", "No Free Initial SEO", "No Dynamic Data"],
+          disadvantages: [],
         },
         {
           name: t("webApplication"),
           price: 7500,
           advantages: [
-            "1 Entire Product",
-            "Free Web Hosting for 1 year",
-            "1 Language",
-            "Mobile Friendly & responsive Design",
-            "2 Month of support",
+            t("freeWebHosting"),
+            t("limitlessPages"),
+            t("contactForm"),
+            t("responsiveDesign"),
+            "2 " + t("language"),
+            t("support", { count: 3 }),
+            t("imagesManagement"),
+            t("adminPanel"),
+            t("plugins"),
+            t("usersAndRoles"),
+            t("database"),
           ],
-          disadvantages: ["No Admin Panel", "No Free Initial SEO", "No Dynamic Data"],
+          disadvantages: [t("freeInitialSeo"), t("sellingCapabilities")],
         },
       ],
     },
     {
       category: t("graphicDesign"),
-      packs: [],
+      packs: [
+        {
+          name: "Starter",
+          price: 900,
+          advantages: [t("logoVariants", { count: 3 }), t("limitlessColors"), t("fileFormats")],
+          disadvantages: [t("marketingSheet"), t("businessCard")],
+        },
+        {
+          name: t("full"),
+          popular: true,
+          price: 1300,
+          advantages: [
+            t("logoVariants", { count: 6 }),
+            t("limitlessColors"),
+            t("fileFormats"),
+            t("marketingSheet"),
+            t("businessCard"),
+          ],
+          disadvantages: [],
+        },
+      ],
     },
   ];
   const [selectedPackGroup, setSelectedPackGroup] = useState(packGroups[0]);
@@ -95,19 +132,23 @@ function Packs() {
       </ScrollAnimation>
       <ScrollAnimation animation="fade-up">
         <InOutAnimation animation="fade" elementKey={selectedPackGroup.category}>
-          <div className="grid grid-cols-3 px-10 xl:px-36 gap-10 space-y-3 mt-14">
+          <div
+            className={`grid grid-cols-3 px-10 xl:px-36 gap-10 space-y-3 mt-14 ${
+              selectedPackGroup.packs.length === 2 && ""
+            }`}
+          >
             {selectedPackGroup.packs.map((pack, index) => {
               return (
                 <div
                   key={index}
-                  className={`relative col-span-3 lg:col-span-1 px-7 pt-2 pb-7 border border-gray-50 border-opacity-50   transition-all duration-200 lg:duration-300 rounded-md font-semibold text-lg ${
+                  className={`relative col-span-3 lg:col-span-1 px-7 pt-2 pb-7 border border-gray-50 border-opacity-50 transition-all duration-200 lg:duration-300 rounded-md font-semibold text-lg ${
                     pack.popular
                       ? "shadow-2xl scale-110 bg-brand-gradient text-gray-50"
                       : "bg-gray-50 text-gray-700 shadow-lg"
                   }`}
                 >
                   {pack.popular && (
-                    <div className="px-5 py-1 absolute -top-3 rounded-full bg-green-500 text-sm">{t("popular")}</div>
+                    <div className="px-5 py-1 absolute -top-3  rounded-full bg-green-500 text-sm">{t("popular")}</div>
                   )}
                   <div className="text-center px-10 py-8">
                     <Heading size={1} noHeight className={pack.popular ? "text-gray-50" : "text-gray-600"}>
@@ -138,7 +179,7 @@ function Packs() {
                     <Link href="/contact">
                       <a>
                         <Button variant="brand" className="w-48">
-                          Request
+                          {t("request")}
                         </Button>
                       </a>
                     </Link>

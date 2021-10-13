@@ -7,7 +7,7 @@
   "webDevelopmentDescription": "We follow good practises when creating modern advanced web sites.starting with enginering the overall idea from the database using secure database paradimes , funcionality and algorithms requirements will be implemented using our backend stack like laravel. creating a data api hosted in the server that serves the data to the front user interface that would be built with our frontend stack like Vue Js .and implements the design system you prefer or using pre built templates.",
   "mobileDevelopmentDescription": "Develop your mobile application that can interract with your hosted web api and serve your customers the data through a smooth material design UI . you have the choise to pick native or hybrid mobile applications.",
   "codeDebugging": "Code Maintenance & Debugging",
-  "codeDebuggingDescription": "We Offer 1 free month without a charge for code maintance . if you have any kind of bug report back to our team and we will be happy to fix it. we also offer free functionality requirements in this 1 month without a single charge.",
+  "codeDebuggingDescription": "We Offer 2 free month without a charge for code maintance . if you have any kind of bug report back to our team and we will be happy to fix it.",
   "codeMaintenance": "Code Maintenance",
   "extendingFeatures": "Extending Features",
   "extendingFeaturesDescription": "if you have an existing website / mobile application that you would like to extend and improve feel asure to hand it over to us. our team is happy to implement which ever funcionallities you would like to see in your application.",
