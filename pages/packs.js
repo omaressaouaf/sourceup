@@ -1,4 +1,3 @@
-import About from "../components/about/About";
 import MetaData from "../components/layout/MetaData";
 import Packs from "../components/packs/Packs";
 
