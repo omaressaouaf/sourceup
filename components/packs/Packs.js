@@ -19,11 +19,14 @@ function Packs() {
       packs: [
         {
           name: t("staticWebsite"),
-          price: 3500,
+          price: 3000,
           advantages: [
-            t("freeWebHosting"),
+            t("freeSSL"),
+            t("siteBackup"),
+            t("googleAnalytics"),
             "1-5 Pages",
             t("contactForm"),
+            t("googleMaps"),
             t("responsiveDesign"),
             "1 " + t("language"),
             t("support", { count: 2 }),
@@ -36,12 +39,16 @@ function Packs() {
           oldPrice: 8000,
           popular: true,
           advantages: [
-            t("freeWebHosting"),
+            t("freeSSL"),
+            t("siteBackup"),
+            t("googleAnalytics"),
             t("limitlessPages"),
             t("contactForm"),
+            t("googleMaps"),
             t("responsiveDesign"),
             "2 " + t("language"),
             t("support", { count: 3 }),
+
             t("imagesManagement"),
             t("adminPanel"),
             t("plugins"),
@@ -58,9 +65,12 @@ function Packs() {
           name: t("webApplication"),
           price: 7500,
           advantages: [
-            t("freeWebHosting"),
+            t("freeSSL"),
+            t("siteBackup"),
+            t("googleAnalytics"),
             t("limitlessPages"),
             t("contactForm"),
+            t("googleMaps"),
             t("responsiveDesign"),
             "2 " + t("language"),
             t("support", { count: 3 }),
@@ -72,6 +82,7 @@ function Packs() {
           ],
           disadvantages: [t("freeInitialSeo"), t("sellingCapabilities")],
         },
+
       ],
     },
     {
