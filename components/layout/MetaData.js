@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const MetaData = ({ title, description, canonical }) => {
   const router = useRouter();
 
-  let constructedTitle = `${process.env.NEXT_PUBLIC_APP_NAME} - Développement Web / mobile, marketing digital, conception graphique`;
+  let constructedTitle = `${process.env.NEXT_PUBLIC_APP_NAME} - Création site web Casablanca, Maroc et les applications mobile, marketing digital, conception graphique`;
   if (title) {
     constructedTitle = `${title} - ${process.env.NEXT_PUBLIC_APP_NAME}`;
   }
@@ -52,36 +52,20 @@ const MetaData = ({ title, description, canonical }) => {
       <meta name="description" content={description} />
       <meta
         name="keywords"
-        content="création site web, site web, conception web, logiciel, logiciels, informatique, conseil, erp, crm, vidéo conférence,marketing digital, développement, développement logiciel, application mobile, source up, sourceup, agence informatique, informatique, maroc, software, websites, websites development, web design, web development, mobile development, web development, digital marketing, graphic design , moroocan agency, IT agency , morocco , casablanca, 	web development maroc, web development agency, web development application, web development business, développement web à, création d'un site web prix, création d'un site web professionnel, creation site web boutique en ligne, agence informatique au maroc, agence digitale informatique, agence web et informatique, développement de logiciel
-        développement applicatif
-        informatique décisionnelle
-        Business intelligence
-        IONIC
-        TMA
-        Intelligence artificielle
-        Offshore
-        France
-        Paris
-        Logigroup, creation des sites web maroc, volzak, yankees, yankees smashburger, vcc-club, xeryos, tousalik, katsu"
+        content="source up, sourceup,sourceup maroc, sourceup casablanca, sourceup casa, source up maroc, source up casablanca, source up casa, création site web, création site web vitrine, création site web e-commerce, site web, site internet maroc, Pack création site internet, développement web à, création d'un site web prix, Création de site web à petit prix, création d'un site web professionnel, creation site web boutique en ligne, agence informatique au maroc, agence digitale informatique, agence web et informatique, creation des sites web maroc, conception web, logiciel, logiciels, informatique, conseil, erp, crm, marketing digital, développement, développement logiciel, application mobile, agence informatique, informatique, Publicité sur internet, gestion de social media, social media ads, software, websites, websites development, web design, web development, mobile development, web development, digital marketing, graphic design, IT agency, web development maroc, web development agency maroc, web application maroc, web development business, volzak, yankees, yankees smashburger, vcc-club, xeryos, tousalik, katsu"
       />
       {canonical && <link rel="canonical" href={canonical} />}
       <meta property="og:type" content="article" />
       <meta property="og:title" content={constructedTitle} />
       <meta property="og:description" content={description} />
-      <meta
-        property="og:image"
-        content={process.env.NEXT_PUBLIC_APP_URL + "/images/logo-col.jpg"}
-      />
+      <meta property="og:image" content={process.env.NEXT_PUBLIC_APP_URL + "/images/logo-col.jpg"} />
       <meta property="og:url" content={process.env.NEXT_PUBLIC_APP_URL + router.pathname} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:site_name" content={process.env.NEXT_PUBLIC_APP_NAME} />
       <meta name="twitter:image:alt" content={process.env.NEXT_PUBLIC_APP_NAME + " Logo"} />
       <link rel="alternate" hrefLang="fr-MA" href="https://sourceup.ma/" />
       <link rel="alternate" hrefLang="en-MA" href="https://sourceup.ma/en" />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
     </Head>
   );
 };

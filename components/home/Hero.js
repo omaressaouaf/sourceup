@@ -19,7 +19,7 @@ const Hero = () => {
             <h1 className="mb-8 text-2xl font-extrabold tracking-tight lg:text-5xl">
               {"Source Up " + t("heroTitle")}
               <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-brand via-brand to-brand-light">
-                {t("webAndMobile")}
+                {t("webAndMobile")} {t("inMorocco")}
               </span>
             </h1>
             <p className="mb-8 text-base leading-relaxed text-left text-gray-400">{t("heroDescription")}</p>

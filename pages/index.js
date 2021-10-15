@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <MetaData
-        description={`${process.env.NEXT_PUBLIC_APP_NAME} est une agence marocaine spécialisée dans la création des site Web et les applications mobile pour votre affaire, les système de conception avec une interface utilisateur, les logos et les cartes de visite`}
+        description={`Création de site web à petit prix Casablanca, Maroc. site vitrine et e-commerce et les applications mobile, le marketing digital et la conception graphique`}
         canonical="https://www.sourceup.ma/"
       />
       <Hero />
