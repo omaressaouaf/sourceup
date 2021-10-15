@@ -12,6 +12,9 @@ const Clients = () => {
       image: "volzak.png",
     },
     {
+      image: "katsu.png",
+    },
+    {
       image: "yankees.jpg",
       bgColor: "bg-gray-900",
     },
@@ -31,7 +34,7 @@ const Clients = () => {
           {t("ourClients")}
         </Heading>
       </div>
-      <div className="container py-5 flex gap-4 items-center lg:justify-between">
+      <div className="px-4 xl:px-16 py-5 flex gap-4 items-center lg:justify-between overflow-auto">
         {clients.map((client, index) => {
           return client.bgColor ? (
             <div key={index} className={`${client.bgColor} py-2 px-3 rounded-md`}>
@@ -40,14 +43,12 @@ const Clients = () => {
                 width={190}
                 height={80}
                 alt={client.image}
-                className="opacity-80 hover:opacity-100 transition-all duration-150"
               />
             </div>
           ) : (
             <Image
               key={index}
               src={`/images/clients/${client.image}`}
-              className="opacity-80 hover:opacity-100 transition-all duration-150"
               width={140}
               height={100}
               alt={client.image}
