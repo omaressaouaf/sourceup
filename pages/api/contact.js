@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     await transport.sendMail({
       replyTo: email,
       to: process.env.MAIL_USERNAME,
-      subject: `SourceUp Website Contact ${subject ? ": " + subject : ""}`,
+      subject: `${process.env.APP_NAME} Website Contact ${subject ? ": " + subject : ""}`,
       html: generateEmailHtml(name, phone, email, subject, message, services),
     });
     res.status(200).json({ message: "Email sent successfully" });

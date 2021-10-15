@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <MetaData
-        description={`Création de site web à petit prix Casablanca, Maroc. site vitrine et e-commerce et les applications mobile, le marketing digital et la conception graphique`}
+        description={`Création de site web à petit prix Casablanca, Maroc. site vitrine et e-commerce et les applications mobile, le marketing digital et la conception graphique chez ${process.env.NEXT_PUBLIC_APP_NAME}`}
         canonical="https://www.sourceup.ma/"
       />
       <Hero />
