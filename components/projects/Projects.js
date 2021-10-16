@@ -22,14 +22,14 @@ const Projects = () => {
       },
     },
     {
-      name: "Tousalik",
-      description: t("tousalikDescription"),
-      image: "tousalik.png",
-      url: "https://tousalik.com",
+      name: "Katsu Sushi",
+      description: t("katsuDescription"),
+      image: "katsu.png",
+      url: "https://www.katsu.ma/",
       category: {
-        name: t("marketing"),
-        icon: "fa fa-chart-line",
-        color: "text-brand",
+        name: t("foodDelivery"),
+        icon: "fa fa-hamburger",
+        color: "text-green-600",
       },
     },
     {
@@ -43,7 +43,6 @@ const Projects = () => {
         color: "text-yellow-600",
       },
     },
-
     {
       name: "VCC-Club",
       description: t("vccClubDescription"),
@@ -66,18 +65,18 @@ const Projects = () => {
         color: "text-brand",
       },
     },
+
     {
-      name: "Katsu Sushi",
-      description: t("katsuDescription"),
-      image: "katsu.png",
-      url: "https://www.katsu.ma/",
+      name: "Tousalik",
+      description: t("tousalikDescription"),
+      image: "tousalik.png",
+      url: "https://tousalik.com",
       category: {
-        name: t("foodDelivery"),
-        icon: "fa fa-hamburger",
-        color: "text-green-600",
+        name: t("marketing"),
+        icon: "fa fa-chart-line",
+        color: "text-brand",
       },
     },
-
     {
       name: "ConnecTo",
       description: t("connectoDescription"),
