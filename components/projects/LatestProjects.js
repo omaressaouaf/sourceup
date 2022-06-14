@@ -10,24 +10,24 @@ const LatestProjects = () => {
 
   const projects = [
     {
-      name: "Xeryos",
-      description: t("xeryosDescription"),
-      image: "xeryos.png",
-      url: "https://www.xeryos.com/",
+      name: "Topo Maroc",
+      description: t("topomarocDescription"),
+      image: "topomaroc.png",
+      url: "https://www.topomaroc.com/",
       category: {
-        name: t("finance"),
-        icon: "fa fa-credit-card",
-        color: "text-brand",
+        name: t("topography"),
+        icon: "fa fa-tools",
+        color: "text-yellow-500",
       },
     },
     {
-      name: "Yankees",
-      description: t("yankeesDescription"),
-      image: "yankees.png",
-      url: "https://yankees.ma",
+      name: "ChronoPrint",
+      description: t("chronoprintDescription"),
+      image: "chronoprint.png",
+      url: "https://chronoprint.ma",
       category: {
-        name: t("foodDelivery"),
-        icon: "fa fa-hamburger",
+        name: t("onlinePrinting"),
+        icon: "fa fa-print",
         color: "text-green-600",
       },
     },

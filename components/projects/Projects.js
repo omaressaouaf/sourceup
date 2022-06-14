@@ -11,25 +11,36 @@ const Projects = () => {
 
   const projects = [
     {
-      name: "Yankees",
-      description: t("yankeesDescription"),
-      image: "yankees.png",
-      url: "https://yankees.ma",
+      name: "Topo Maroc",
+      description: t("topomarocDescription"),
+      image: "topomaroc.png",
+      url: "https://www.topomaroc.com/",
       category: {
-        name: t("foodDelivery"),
-        icon: "fa fa-hamburger",
+        name: t("topography"),
+        icon: "fa fa-tools",
+        color: "text-yellow-500",
+      },
+    },
+    {
+      name: "ChronoPrint",
+      description: t("chronoprintDescription"),
+      image: "chronoprint.png",
+      url: "https://chronoprint.ma",
+      category: {
+        name: t("onlinePrinting"),
+        icon: "fa fa-print",
         color: "text-green-600",
       },
     },
     {
-      name: "Katsu Sushi",
-      description: t("katsuDescription"),
-      image: "katsu.png",
-      url: "https://www.katsu.ma/",
+      name: "Transyanis",
+      description: t("transyanisDescription"),
+      image: "transyanis.png",
+      url: "https://transyanis.ma",
       category: {
-        name: t("foodDelivery"),
-        icon: "fa fa-hamburger",
-        color: "text-green-600",
+        name: t("exportationAndImportation"),
+        icon: "fa fa-truck",
+        color: "text-brand",
       },
     },
     {
@@ -41,6 +52,17 @@ const Projects = () => {
         name: t("ecommerce"),
         icon: "fa fa-shopping-cart",
         color: "text-yellow-600",
+      },
+    },
+    {
+      name: "Katsu Sushi",
+      description: t("katsuDescription"),
+      image: "katsu.png",
+      url: "https://www.katsu.ma/",
+      category: {
+        name: t("foodDelivery"),
+        icon: "fa fa-hamburger",
+        color: "text-green-600",
       },
     },
     {
@@ -65,7 +87,17 @@ const Projects = () => {
         color: "text-brand",
       },
     },
-
+    {
+      name: "Yankees",
+      description: t("yankeesDescription"),
+      image: "yankees.png",
+      url: "https://yankees.ma",
+      category: {
+        name: t("foodDelivery"),
+        icon: "fa fa-hamburger",
+        color: "text-green-600",
+      },
+    },
     {
       name: "Tousalik",
       description: t("tousalikDescription"),
