@@ -21,9 +21,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="px-4">
-          <h1 className="mb-8 text-xs font-semibold tracking-widest uppercase title-font">
-            {t("quickLinks")}
-          </h1>
+          <h1 className="mb-8 text-xs font-semibold tracking-widest uppercase title-font">{t("quickLinks")}</h1>
           <nav className="mb-10">
             <ul className="space-y-5 list-none text-gray-400">
               <li>
@@ -58,9 +56,7 @@ const Footer = () => {
           </nav>
         </div>
         <div className="px-4 mb-9">
-          <h1 className="mb-8 text-xs font-semibold tracking-widest uppercase title-font">
-            {t("ourSocialMedia")}
-          </h1>
+          <h1 className="mb-8 text-xs font-semibold tracking-widest uppercase title-font">{t("ourSocialMedia")}</h1>
           <div className="text-gray-400 text-sm">
             <p>{t("followUsOnSocialMedia")}</p>
             <div className="flex items-center mt-4 space-x-4">
@@ -85,16 +81,14 @@ const Footer = () => {
         </div>
 
         <div className="px-4 ">
-          <h1 className="mb-8 text-xs font-semibold tracking-widest uppercase title-font">
-            {t("language")}
-          </h1>
+          <h1 className="mb-8 text-xs font-semibold tracking-widest uppercase title-font">{t("language")}</h1>
           <LanguageSwitcher />
         </div>
       </div>
       <div className="p-8 mt-4 bg-secondary-dark border-t border-gray-800 border-opacity-80">
         <div className="flex items-center justify-center">
           <p className="text-sm">
-            ©Copyright {process.env.NEXT_PUBLIC_APP_NAME}. All Rights Reserved{" "}
+          {t("allRightsReserved")} © 2022 {process.env.NEXT_PUBLIC_APP_NAME}{" "}
           </p>
         </div>
       </div>

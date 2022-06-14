@@ -42,5 +42,6 @@
   "serverErrorTitle": "Erreur interne du serveur",
   "serverErrorParagraph": "Il semble que notre serveur ait été pour cette demande. essaie de rentrer à la maison",
   "projects": "Projets",
-  "ourClients": "Nos Clients"
+  "ourClients": "Nos Clients",
+  "allRightsReserved" : "Tous droits sont réservés"
 }

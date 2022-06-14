@@ -43,5 +43,6 @@
   "serverErrorParagraph": "It looks like our server has been for this request. try to go back home",
   "server": "Server",
   "projects": "Projects",
-  "ourClients": "Our Clients"
+  "ourClients": "Our Clients",
+  "allRightsReserved" : "All rights reserved"
 }
