@@ -1,34 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Source Up Agency Website
 
-## Getting Started
+[Source Up](https://www.sourceup.ma/) is a web agency that delivers end-to-end digital services to clients from different industries
 
-First, run the development server:
+![website](https://lh3.googleusercontent.com/pw/ABLVV841a5wf_AH1g2XmsKaqCjwqfShuD4vGGikukJuyKd9Oh0b8j6iszpd-PSVHzmwcwwP5Yef4XTpDFGE_egSZnY5QgyuvfycqI-_tiECn_yTsZGu1OlbTd4XplovQM3Gif5W-xmgyERFTln0MQHVWNUiKMHcrLCL1NsLDHXkBWww4hGjE9hJJmxK7CmZRw-URBOaSwlDrnl7bqhi5NkMZr2VGBi5JMc3IeOrA97QHJuk5oZcUP4uTv9eCn8O__L6n3c2yWu-0wmbdFXsP5Rbb2FJPSsiLQCMP8jp57OvSGt53b08lIUr8sboYIXXTAlHiMvN4bYzrIC0p4dTCgUwwC4230iEfdjovcr2zbvH9jzmQsDSzWAqBtAosbV1GG0RRJvi3PDRUh6TyshjLFcgLYse76eAZy4ALm6Jb1irZtvfrJmcMOINZPu4nySAMDR_E6SsGVvVkzJPRFM26IY7xzKsTvfSKM9wHZmGcQi5TzpLybJqFgU-aHQLNlN5MEqWrVkdYCvyBcJfjM2yN6NaOO0e4I_niSl1fNc16Bz64qpskl7lLpTSkbLPN1X1UPhRk2A86aenJfx0TILoInkYbqxBSCEDqRF00xJsQ5lY0mAYNy0AmByf08DFB6nBlVUteyJ1yRkvUoJiZCxcORefsnmEhGJ-8ThNJUep0snRvXFac9_iSqTihogodWxWPS8fNTm1Xdv2JiEzEXDG7AW-dFOMV5D74OZtiGpX26CdMyxuE_LmQNGC6fqBWLY1a9GVo92wZXy8LiWnCxBwsYJ2rXYDlrlRjynNcnVzAvWj57sO9pHEGPRtj0pb7RDPI314y78if0kWqFYdZZHb-cWnfPCA5UjgagAjC9fTTQ5VTLkhvdTxxWmunJ0T0JvomMmIDjsYc5fJKbDMnXosDLrdfpLQ0enCzVCxuMTR4lyiG7wsKDmL8vRAYf3gG8g32sGGJeEKsJdQfoZxBxsWQdlfSEL3No8IWeBSIdAmfgExU00SAC8LT4r8YIm1kHsDAYF7mNF2MNgA0mnFs8QWOLWsR_BtAUeTQzvmmm9f78AQjPg=w1163-h575-no?authuser=0)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+-----
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### How to use
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Clone the project with `git clone`
+- Copy `.env.example` file to `.env.local` and edit credentials there
+- Run `npm install`
+- Run `npm run dev`
+- Launch the [website](http://localhost:3000/)
